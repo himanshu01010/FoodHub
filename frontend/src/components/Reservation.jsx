@@ -35,7 +35,7 @@ const Reservation = () => {
         // Reset form fields and navigate
         setFirstName("");
         setLastName("");
-        setPhone(0);
+        setPhone("");
         setEmail("");
         setTime("");
         setDate("");
