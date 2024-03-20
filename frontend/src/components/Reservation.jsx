@@ -30,7 +30,7 @@ const Reservation = () => {
         if (response.data) {
           toast.success(response.data.message);
         } else {
-          toast.success("Reservation successful!"); // Assuming success when there's no specific message
+          toast.success("Reservation successful!");
         }
         // Reset form fields and navigate
         setFirstName("");
@@ -98,7 +98,7 @@ const Reservation = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <input
-                  type="number"
+                  type="string"
                   placeholder="Phone"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
