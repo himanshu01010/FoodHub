@@ -234,6 +234,7 @@ nav svg {
   .heroSection .container .banner .imageBox img {
     width: 250px;
     height: 335px;
+    border-radius: 5%;
   }
 }
 @media (max-width: 880px) {
